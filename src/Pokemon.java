@@ -1,12 +1,13 @@
 public class Pokemon{
+
     protected Pokemon p;
     protected String nom;
     protected double hp;
     protected int atk;
 
-    public Pokemon(String nom,int HP, int atk) {
+    public Pokemon(String nom,int hp, int atk) {
         this.nom = nom;
-        this.hp = HP;
+        this.hp = hp;
         this.atk = atk;
 
     }
