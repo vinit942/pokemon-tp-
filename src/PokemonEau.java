@@ -12,7 +12,7 @@ public class PokemonEau extends Pokemon {
             p.hp = this.atk * 2 - p.hp;
 
         }
-        else if (p = pokemonPlante) {
+        else if (p = PokemonPlante) {
 
             p.hp = this.atk * 0.5 - p.hp;
         }
