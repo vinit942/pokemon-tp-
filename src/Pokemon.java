@@ -1,7 +1,7 @@
 public class Pokemon{
-    public String nom;
-    public int hp;
-    public int atk;
+    protected String nom;
+    protected int hp;
+    protected int atk;
 
     public Pokemon(String nom,int HP, int atk) {
         this.nom = nom;
